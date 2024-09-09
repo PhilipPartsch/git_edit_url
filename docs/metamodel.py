@@ -14,31 +14,6 @@ needs_id_regex = '^[A-Za-z0-9_-]{3,}'
 # Define project specific needs directives
 
 needs_types = [
-               # Process-As-Code
-               # Role
-               dict(directive="prole", title="Role", prefix="ROLE_", color="#ffffff", style="actor"),
-
-               # Strategy
-               dict(directive="strategy", title="Strategy", prefix="STGY_", color="#ffffff", style="hexagon"),
-
-               # Process
-               dict(directive="process", title="Process", prefix="PROC_", color="#ffffff", style="package"),
-               dict(directive="activity", title="Activity", prefix="ACT_", color="#ffffff", style="card"),
-               dict(directive="artifact", title="Artifact", prefix="ART_", color="#ffffff", style="artifact"),
-               dict(directive="pstatus", title="Status", prefix="STATUS_", color="#ffffff", style="artifact"), # Child of Artifact
-
-               # Instruction
-               dict(directive="template", title="Template", prefix="TEMP_", color="#ffffff", style="frame"),
-               dict(directive="instruction", title="Work Instruction", prefix="INST_", color="#ffffff", style="frame"),
-
-               # Storage
-               dict(directive="repo", title="Repository", prefix="REPO_", color="#ffffff", style="database"),
-
-               # Timeline
-               dict(directive="lifecycle", title="Lifecycle", prefix="CYCLE_", color="#ffffff", style="card"),
-               dict(directive="phase", title="Phase", prefix="PHASE_", color="#ffffff", style="rectangle"),
-               dict(directive="milestone", title="Milestone", prefix="MILE_", color="#ffffff", style="hexagon"),
-
                # Product-As-Code
 
                # Requirements
@@ -71,8 +46,6 @@ needs_types = [
 # Define extra options for needs object
 needs_extra_options = [
    'author', # to store the author of a stakeholder requirement
-   'safety_level',
-   'security_level',
    'reject_reason',
    'coverage', # to store test coverage in %
    'pathfile', # file path in needs e.g. for test coverage
