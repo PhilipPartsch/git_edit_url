@@ -1,15 +1,18 @@
-###########################################################
-Stakeholder Specification Evaluation for "Get git edit URL"
-###########################################################
+######################################################
+Stakeholder Specification Evaluation for "git the URL"
+######################################################
 
-.. evaluation:: Evaluation of "Get git edit URL"
-   :id: EVAL_GET_GIT_EDIT_URL
-   :evaluated: CSTRQ_GET_GIT_EDIT_URL
-   :output: SWRQ_ID
+.. evaluation:: Evaluation of "git the URL"
+   :id: EVAL_GIT_THE_URL
+   :evaluated: CSTRQ_GIT_THE_URL
+   :output: SWRQ_GIT_THE_URL
+
+   User wants to get a string as link (url) folder / file in the hosted repository
+
+.. evaluation:: Rest
+   :id: EVAL_REST
+   :evaluated: CSTRQ_GIT_THE_URL
+   :output: SWRQ_GIT_THE_URL
 
    - User wants to give in a string which represents the path to the repository
    - User wants to give in a path to the repository
-   - User wants to get back a string as link (url) to the hosted repository
-   
-
-

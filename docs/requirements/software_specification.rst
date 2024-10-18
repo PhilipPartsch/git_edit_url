@@ -1,10 +1,12 @@
-################################
-Specification for <Your Product>
-################################
+###############################
+Specification for "git the URL"
+###############################
 
-.. sw_req:: <Add a title here>
-   :id: SWRQ_ID
+.. sw_req:: Get the git the URL
+   :id: SWRQ_GIT_THE_URL
    :status: new
-   :satisfies: CSTRQ_ID
+   :satisfies: CSTRQ_GIT_THE_URL
 
-   <Add your text here>
+   
+
+
