@@ -110,10 +110,10 @@ jobs:
           GITHUB_USER: ${{ github.actor }}
         run: |
           pushd ${THIS_REPO}
-          hub pull-request \
-            -b "${BASE_BRANCH}" \
-            -h "${HEAD_BRANCH}" \
-            --no-edit \
-            -m "Pull updates from ${REPO_TEMPLATE}" \
-            -m "Pull updates from ${REPO_TEMPLATE}"
+          gh pr create \
+            --assignee "@me" \
+            --base "${BASE_BRANCH}" \
+            --head "${HEAD_BRANCH}" \
+            --fill \
+            --title "Pull updates from ${REPO_TEMPLATE}"
           popd
