@@ -35,8 +35,8 @@ env:
 jobs:
   sync-from-template:
     # Do not run on the template repository itself
-    if: ${{ github.repository != env.REPO_TEMPLATE }}
-    name: Sync changes from ${{ env.REPO_TEMPLATE }}
+    if: github.repository != PhilipPartsch/sphinx-needs-code-template
+    name: Sync changes from template
     runs-on: ubuntu-latest
     continue-on-error: true
 
