@@ -24,6 +24,9 @@ on:
   # Run when manually triggered
   workflow_dispatch:
 
+permissions:
+  pull-requests: write
+
 env:
   REPO_TEMPLATE: PhilipPartsch/sphinx-needs-code-template
   BASE_BRANCH: main
