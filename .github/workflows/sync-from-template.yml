@@ -25,18 +25,18 @@ on:
   workflow_dispatch:
 
 env:
+  REPO_TEMPLATE: PhilipPartsch/sphinx-needs-code-template
   BASE_BRANCH: main
   HEAD_BRANCH: chore/sync-from-template
   GIT_AUTHOR_NAME: ${{ github.repository_owner }}
   GIT_AUTHOR_EMAIL: ${{ github.repository_owner }}@users.noreply.github.com
-  REPO_TEMPLATE: PhilipPartsch/sphinx-needs-code-template
   THIS_REPO: ${{ github.repository }}
 
 jobs:
   sync-from-template:
     # Do not run on the template repository itself
-    if: github.repository != ${{ REPO_TEMPLATE }}
-    name: Sync changes from ${{ REPO_TEMPLATE }}
+    if: ${{ github.repository != env.REPO_TEMPLATE }}
+    name: Sync changes from ${{ env.REPO_TEMPLATE }}
     runs-on: ubuntu-latest
     continue-on-error: true
 
