@@ -1,10 +1,88 @@
-################################
-Specification for <Your Product>
-################################
+###############################
+Specification for "git the URL"
+###############################
 
-.. sw_req:: <Add a title here>
-   :id: SWRQ_ID
+.. sw_req:: Get the git hoster edit URL
+   :id:SWRQ_GIT_THE_EDIT_URL
+   :author: PhilipPartsch
    :status: new
-   :satisfies: CSTRQ_ID
 
-   <Add your text here>
+   As a python developer, I want to get the edit url (link) to the hoster
+   of my repository, only providing the path to a file or a folder within a cloned repository.
+
+.. sw_req:: Get the git hoster view URL
+   :id:SWRQ_GIT_THE_VIEW_URL
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to get the view url (link) to the hoster
+   of my repository, only providing the path to a file or a folder within a cloned repository.
+
+.. sw_req:: Provide path to repo as string
+   :id:SWRQ_PATH_AS_STRING
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to provide the path to the cloned repository
+   as a python string.
+
+.. sw_req:: Provide path to repo as path object
+   :id:SWRQ_PATH_AS_OBJECT
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to provide the path to the cloned repository
+   as a python path object.
+
+.. sw_req:: Provide path to file
+   :id:SWRQ_PATH_TO_FILE
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to provide the path to the cloned repository
+   as a path to a file.
+
+.. sw_req:: Provide line of file
+   :id:SWRQ_LINE_WITHIN_FILE
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to provide the line of the file.
+
+.. sw_req:: Provide path to folder
+   :id:SWRQ_PATH_TO_FOLDER
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to provide a path to a folder.
+
+.. sw_req:: Get edit link
+   :id:SWRQ_EDIT_LINK
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to get links with a editable object.
+
+.. sw_req:: Get Visual Studio edit link
+   :id:SWRQ_EDIT_VS_LINK
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to get links with a editable object in visual studio.
+
+.. sw_req:: Support GitHub as Hoster
+   :id:SWRQ_GITHUB
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to get links to GitHub.
+
+.. sw_req:: Support GitLab as Hoster
+   :id:SWRQ_GITLAB
+   :author: PhilipPartsch
+   :status: new
+
+   As a python developer, I want to get links to GitLab.
+
+
+
