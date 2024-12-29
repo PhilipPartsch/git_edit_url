@@ -2,6 +2,13 @@
 Specification for "git the URL"
 ###############################
 
+.. sw_req:: Placeholder software requirement 
+   :id: SWRQ_ID
+   :status: new
+
+   We already have a created test specification and archeicture elements,
+   which currently link to the placeholder.
+
 .. sw_req:: Get the git hoster edit URL
    :id: SWRQ_GIT_THE_EDIT_URL
    :status: new
