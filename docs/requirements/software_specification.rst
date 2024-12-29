@@ -2,7 +2,7 @@
 Specification for "git the URL"
 ###############################
 
-.. sw_req:: Placeholder software requirement 
+.. sw_req:: Placeholder software requirement
    :id: SWRQ_ID
    :status: new
 
