@@ -18,7 +18,6 @@ Specification for "git the URL"
 
 .. sw_req:: Provide path to repo as string
    :id: SWRQ_PATH_AS_STRING
-   :author: PhilipPartsch
    :status: new
 
    As a python developer, I want to provide the path to the cloned repository
