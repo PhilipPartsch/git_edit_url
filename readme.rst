@@ -4,7 +4,7 @@ Get git edit URL
 
 Here a script is provided,
 which fetch the git-host from a path and
-provides your an url to edit it on your git-host.
+provides your an URL to edit it on your git-host.
 
 Currently supported git-host are:
 
