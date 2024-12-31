@@ -3,4 +3,5 @@ rst
 xml
 json
 url
+URL
 merge_dicts
