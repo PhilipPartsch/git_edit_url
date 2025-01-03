@@ -73,9 +73,8 @@ jobs:
         run: |
           _files="$(find ${REPO_TEMPLATE} \
             ! -path "*/.git/*" \
-            ! -path "*/.github/workflows/*" \
-            ! -name ".gitignore" \
-            ! -name "README.md" \
+            ! -name "README*" \
+            ! -name "readme*" \
             -type f \
             -print)"
           for _file in ${_files}; do
@@ -87,6 +86,7 @@ jobs:
             echo "INFO: Copy '${_src}' to '${_dst}'."
             cp "${_src}" "${_dst}"
           done
+          # for debugging print git diff
           git -C "${THIS_REPO}" diff
 
       # Commit changes, if there are any
